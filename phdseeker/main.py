@@ -45,6 +45,14 @@ class Config:
             'date': "apply py-2 small",
             'link': "h4 text-dark mx-0 mb-3",
         },
+        'academicpositions': {
+            'sought#': None,
+            'query': 'https://academicpositions.com/find-jobs?positions[0]=phd&locations[0]=europe&locations[1]=germany&search={fields}&page={page}',
+            'title': "#list-jobs-results div.card-body a h4",
+            'country': "#list-jobs-results div.row.align-items-center.pb-3 div.col.ml-n5 a",
+            'date': "#list-jobs-results div.row.row-tight.align-items-center i",
+            'link': "#list-jobs-results div.card-body a",
+        }
     }
 
     def __init__(self, repo='scholarshipdb'):
